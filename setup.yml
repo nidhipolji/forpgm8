@@ -1,0 +1,7 @@
+- name: Basic server Setup
+  hosts: local
+  become: true
+  tasks:
+    - name: Example Task
+      debug:
+        msg: "hello this is ansible"
